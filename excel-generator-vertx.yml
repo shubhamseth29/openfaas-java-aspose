@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://localhost:31112
+functions:
+  excel-generator-vertx:
+    lang: java11-vert-x
+    handler: ./excel-generator-vertx
+    image: localhost:5000/excel-generator-vertx:latest
+
