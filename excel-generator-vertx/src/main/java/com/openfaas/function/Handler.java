@@ -331,8 +331,8 @@ public class Handler implements io.vertx.core.Handler<RoutingContext> {
 				tableWorksheet.freezePanes(2, 0, 2, tableWorksheet.getCells().getMaxColumn() + 1);
 				workbook.save(baos , SaveFormat.XLSX);
 				buffer = baos.toByteArray();
-				final String accessKey = "AKIAVAED2LMZYFX4WHP4";
-				final String secretKey = "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";
+				final String accessKey = "";
+				final String secretKey = "";
 		
 				String bucketName = "centilytics-reporting";
 				
